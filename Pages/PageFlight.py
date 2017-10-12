@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-class FlightPage:
+import unittest
+
+class PageFlight(unittest.TestCase):
     def __init__(self,myDriver):
         self.driver = myDriver
 
@@ -17,7 +19,7 @@ class FlightPage:
 
     def verify_country(self,country):
         countryDropDown = Select(self.driver.find_element_by_name("country"))
-        self.assertEquals(countryDropDown.first_selected_option.text.strip(), country)
+        assertEquals(countryDropDown.first_selected_option.text.strip(), country)
 
     def verify_not_country(self,country):
         countryDropDown = Select(self.driver.find_element_by_name("country"))
