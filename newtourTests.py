@@ -8,7 +8,6 @@ from Pages.PageRegister import *
 
 class newTours(unittest.TestCase):
     def setUp(self):
-
         self.driver = webdriver.Chrome('chromedriver.exe')
         self.page_index = PageIndex(self.driver)
         self.driver.get('http://newtours.demoaut.com/')
