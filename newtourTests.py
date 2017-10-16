@@ -9,7 +9,6 @@ from Pages.PageRegister import *
 class newTours(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome('chromedriver.exe')
-        self.page_index = PageIndex(self.driver)
         self.driver.get('http://newtours.demoaut.com/')
         self.page_index = PageIndex(self.driver)
         self.page_flight = PageFlight(self.driver)
@@ -29,4 +28,5 @@ class newTours(unittest.TestCase):
         self.page_register.verify_registration_form()
 
     def tearDown(self):
+        self.driver.close()
         self.driver.quit()
