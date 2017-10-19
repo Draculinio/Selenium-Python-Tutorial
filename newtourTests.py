@@ -13,7 +13,6 @@ class newTours(unittest.TestCase):
         self.page_index = PageIndex(self.driver)
         self.page_flight = PageFlight(self.driver)
         self.page_register = PageRegister(self.driver)
-        time.sleep(5)
 
     def test_dropdown(self):
         self.page_index.click_register()

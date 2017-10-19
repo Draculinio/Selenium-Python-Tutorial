@@ -10,10 +10,11 @@ class PageIndex(object):
         self.submit_button = (By.NAME,'login')
 
     def click_register(self):
+        self.driver.implicitly_wait(5)
         self.driver.find_element(*self.register_link).click()
 
     def login(self,user_name, password):
+        self.driver.implicitly_wait(5)
         self.driver.find_element(*self.user_box).send_keys(user_name)
         self.driver.find_element(*self.pass_box).send_keys(password)
         self.driver.find_element(*self.submit_button).click()
-        time.sleep(3)
