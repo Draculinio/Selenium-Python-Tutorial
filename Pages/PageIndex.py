@@ -1,5 +1,6 @@
-import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
 
 class PageIndex(object):
     def __init__(self,myDriver):
@@ -17,4 +18,8 @@ class PageIndex(object):
         self.driver.implicitly_wait(5)
         self.driver.find_element(*self.user_box).send_keys(user_name)
         self.driver.find_element(*self.pass_box).send_keys(password)
+        try:
+            submit = WebDriverWait(self.driver,5).until(expected_conditions.element_to_be_clickable(self.submit_button))
+        except:
+            print("Element is not clickable")
         self.driver.find_element(*self.submit_button).click()
