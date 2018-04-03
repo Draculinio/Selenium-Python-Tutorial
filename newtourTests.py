@@ -10,9 +10,10 @@ from Pages.PageRegister import *
 class newTours(unittest.TestCase):
     def setUp(self):
         self.configuration = xmlReader()
-        
-        self.driver = webdriver.Chrome('chromedriver.exe')
-        #self.driver = webdriver.PhantomJS()
+        if self.configuration.obtener_datos('url')=="chrome":
+            self.driver = webdriver.Chrome('chromedriver.exe')
+        else:
+            self.driver = webdriver.PhantomJS()
         #self.driver.get('http://newtours.demoaut.com/')
         self.driver.get(self.configuration.obtener_datos('url'))
         self.page_index = PageIndex(self.driver)

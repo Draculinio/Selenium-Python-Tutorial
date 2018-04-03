@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24971ed-e761-4c99-9255-790890f9ca6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phantomjs.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/configuration.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Helpers/xmlReader.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/old_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chromedriver.exe" afterPath="$PROJECT_DIR$/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/PageFlight.py" afterPath="$PROJECT_DIR$/Pages/PageFlight.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/PageIndex.py" afterPath="$PROJECT_DIR$/Pages/PageIndex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/xmlReader.py" afterPath="$PROJECT_DIR$/Helpers/xmlReader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newtourTests.py" afterPath="$PROJECT_DIR$/newtourTests.py" />
     </list>
     <ignored path="AutomationFramework.iws" />
@@ -29,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newtourTests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newtourTests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newtourTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -71,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuration.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="configuration.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Config/configuration.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -84,8 +78,8 @@
       <file leaf-file-name="xmlReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Helpers/xmlReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -116,10 +110,10 @@
         <option value="$PROJECT_DIR$/Helpers/data.py" />
         <option value="$PROJECT_DIR$/configuration.xml" />
         <option value="$PROJECT_DIR$/Config/xmlReader.py" />
-        <option value="$PROJECT_DIR$/Helpers/xmlReader.py" />
         <option value="$PROJECT_DIR$/Config/configuration.xml" />
         <option value="$PROJECT_DIR$/Pages/PageIndex.py" />
         <option value="$PROJECT_DIR$/newtourTests.py" />
+        <option value="$PROJECT_DIR$/Helpers/xmlReader.py" />
       </list>
     </option>
   </component>
@@ -880,14 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/PageFlight.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -904,11 +890,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/xmlReader.py">
+    <entry file="file://$PROJECT_DIR$/newtourTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,13 +908,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newtourTests.py">
+    <entry file="file://$PROJECT_DIR$/Helpers/xmlReader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
