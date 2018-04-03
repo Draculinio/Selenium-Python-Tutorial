@@ -11,9 +11,11 @@ class PageFlight():
 
     def select_country_by_index(self,index):
         Select(self.driver.find_element(*self.countryDropDown)).select_by_index(index)
+        
 
     def select_country_by_value(self,value):
         Select(self.driver.find_element(*self.countryDropDown)).select_by_value(value)
+
 
     def select_country_by_name(self,name):
         Select(self.driver.find_element(*self.countryDropDown)).select_by_visible_text(name)
